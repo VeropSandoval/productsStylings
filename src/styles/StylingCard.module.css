@@ -1,0 +1,54 @@
+.stylingCard {
+  position: relative;
+}
+
+.stylingCardCheck {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.stylingInfo {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.notVisible {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #e9bf96;
+  padding: 4px 6px;
+  margin-top: 8px;
+  display: inline-block;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.stylingImageContainer {
+  position: relative;
+}
+.stylingImageOverlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55px;
+  height: 100%;
+  background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 0px 2px 0px 0px;
+}
+
+.stylingCardCheck:after {
+  content: " ";
+  background-color: #9fff9d;
+  display: inline-block;
+  visibility: visible;
+}
+
+.stylingName {
+  font-size: 11px;
+  line-height: 16px;
+  margin-left: 10px;
+}

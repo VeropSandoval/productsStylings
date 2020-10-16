@@ -1,0 +1,23 @@
+.header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #100f0f;
+}
+
+.user {
+  color: #c5c2bf;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  margin-right: 112px;
+}
+
+.user::after {
+  content: url("./assets/dropdownArrow.png");
+}
+.user span {
+  padding-right: 10px;
+}

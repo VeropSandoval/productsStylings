@@ -1,0 +1,16 @@
+.cardDataContainer {
+  margin-top: 8px;
+}
+
+.cardDataText {
+  font-size: 13px;
+  line-height: 15px;
+  color: #ada8a4;
+  opacity: 0.8;
+}
+
+.cardDataValue {
+  font-size: 13px;
+  line-height: 15px;
+  color: #100f0f;
+}
