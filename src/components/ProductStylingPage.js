@@ -61,7 +61,7 @@ const ProductStylingPage = ({
     event.preventDefault();
     setIsLoading(true);
     //Find unique product identifiers
-    const prods = [...new Set(productInput.split(","))];
+    const prods = [...new Set(productInput.split(/\s*,\s*/))];
     //Fetch products
     setProductList(prods);
     //Set product identifiers to show results
